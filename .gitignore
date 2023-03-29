@@ -86,3 +86,8 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+
+.DS_Store
+ifcjs-node/vaz.ifc
+ifcjs-node/vaz.json
