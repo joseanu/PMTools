@@ -1,0 +1,667 @@
+{
+  "Presupuesto":{
+    "Tipo": "Partida",
+    "DescripcionPartidaLarga": "PARQUE INDUSTRIAL \"COLLI\" QUALITY PARK",
+    "Costo0": 852668.68,
+    "Precio0": 1038785.1,
+    "Hijos": [
+      {
+        "Tipo": "Partida",
+        "DescripcionPartidaLarga": "PLATAFORMAS",
+        "Costo0": 571770.15,
+        "Precio0": 696598.32,
+        "Hijos": [
+          {
+            "Tipo": "Partida",
+            "DescripcionPartidaLarga": "PRELIMINARES",
+            "Costo0": 23101.28,
+            "Precio0": 28161.23,
+            "Hijos": [
+              {
+                "Tipo": "Renglon",
+                "Codigo": "1.1.1",
+                "Descripcion": "TRAZO Y NIVELACION DE TERRENO  ESTABLECI",
+                "Unidad": "M2",
+                "Cantidad": 1744.81,
+                "Costo0": 10.14,
+                "Precio0": 12.36,
+                "Matriz": [
+                  {
+                    "Codigo": "MATCAL",
+                    "Descripcion": "CAL HIDRATADA EN SACOS",
+                    "Unidad": "KG",
+                    "Cantidad": 0.025,
+                    "Operador": "*",
+                    "Costo0": 3.2
+                  },
+                  {
+                    "Codigo": "MATPSRAY",
+                    "Descripcion": "PINTURA EN SPRAY",
+                    "Unidad": "BOTE",
+                    "Cantidad": 0.004,
+                    "Operador": "*",
+                    "Costo0": 95.0
+                  },
+                  {
+                    "Codigo": "MATHILO",
+                    "Descripcion": "HILO CA\u00d1AMO",
+                    "Unidad": "M",
+                    "Cantidad": 0.15,
+                    "Operador": "*",
+                    "Costo0": 2.0
+                  },
+                  {
+                    "Codigo": "ESTAC20",
+                    "Descripcion": "ESTACAS MADERA DE 2DA DE 20 CMS",
+                    "Unidad": "PZA",
+                    "Cantidad": 0.75,
+                    "Operador": "*",
+                    "Costo0": 3.0
+                  },
+                  {
+                    "Codigo": "MOCD0010",
+                    "Descripcion": "CADENERO",
+                    "Unidad": "JOR",
+                    "Cantidad": 420.0,
+                    "Operador": "/",
+                    "Costo0": 650.5
+                  },
+                  {
+                    "Codigo": "MOIT0010",
+                    "Descripcion": "TOPOGRAFO",
+                    "Unidad": "JOR",
+                    "Cantidad": 420.0,
+                    "Operador": "/",
+                    "Costo0": 1495.51
+                  },
+                  {
+                    "Codigo": "EQDIETCX-105",
+                    "Descripcion": "ESTACION TOTAL SOKKIA CX-105",
+                    "Unidad": "HR",
+                    "Cantidad": 60.0,
+                    "Operador": "/",
+                    "Costo0": 100.45
+                  },
+                  {
+                    "Codigo": "EQDINB-40",
+                    "Descripcion": "NIVEL AUTOMATICO SOKKIA B-40",
+                    "Unidad": "HR",
+                    "Cantidad": 60.0,
+                    "Operador": "/",
+                    "Costo0": 21.13
+                  }
+                ]
+              },
+              {
+                "Tipo": "Renglon",
+                "Codigo": "1.1.2",
+                "Descripcion": "DESPALME DE TERRENO POR MEDIOS MECANICOS",
+                "Unidad": "M2",
+                "Cantidad": 1744.81,
+                "Costo0": 3.1,
+                "Precio0": 3.78,
+                "Matriz": [
+                  {
+                    "Codigo": "EQDI140-H",
+                    "Descripcion": "MOTOCONFORMADORA CAT 140-H",
+                    "Unidad": "HR",
+                    "Cantidad": 450.0,
+                    "Operador": "/",
+                    "Costo0": 1395.8
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Tipo": "Partida",
+            "DescripcionPartidaLarga": "TERRACERIAS",
+            "Costo0": 548668.87,
+            "Precio0": 668437.09,
+            "Hijos": [
+              {
+                "Tipo": "Renglon",
+                "Codigo": "1.2.1",
+                "Descripcion": "COMPACTACION DE TERRENO NATURAL DE 20 CM",
+                "Unidad": "M2",
+                "Cantidad": 1744.81,
+                "Costo0": 10.37,
+                "Precio0": 12.64,
+                "Matriz": [
+                  {
+                    "Codigo": "AGUA-PIPA",
+                    "Descripcion": "AGUA EN PIPA",
+                    "Unidad": "M3",
+                    "Cantidad": 0.0195,
+                    "Operador": "*",
+                    "Costo0": 100.0
+                  },
+                  {
+                    "Codigo": "MOAY010",
+                    "Descripcion": "AYUDANTE GENERAL",
+                    "Unidad": "JOR",
+                    "Cantidad": 1120.0,
+                    "Operador": "/",
+                    "Costo0": 626.6
+                  },
+                  {
+                    "Codigo": "EQDI140-H",
+                    "Descripcion": "MOTOCONFORMADORA CAT 140-H",
+                    "Unidad": "HR",
+                    "Cantidad": 280.0,
+                    "Operador": "/",
+                    "Costo0": 1395.8
+                  },
+                  {
+                    "Codigo": "EQDISD100-D",
+                    "Descripcion": "COMPACTADOR VIBRATORIO SD-100D",
+                    "Unidad": "HR",
+                    "Cantidad": 280.0,
+                    "Operador": "/",
+                    "Costo0": 802.81
+                  }
+                ]
+              },
+              {
+                "Tipo": "Renglon",
+                "Codigo": "1.2.2",
+                "Descripcion": "TERRAPLEN CON MATERIAL DE BANCO, A BASE",
+                "Unidad": "M3",
+                "Cantidad": 1082.26,
+                "Costo0": 247.25,
+                "Precio0": 301.23,
+                "Matriz": [
+                  {
+                    "Codigo": "AGUA-PIPA",
+                    "Descripcion": "AGUA EN PIPA",
+                    "Unidad": "M3",
+                    "Cantidad": 0.13,
+                    "Operador": "*",
+                    "Costo0": 100.0
+                  },
+                  {
+                    "Codigo": "TEPETATE",
+                    "Descripcion": "TEPETATE DE BANCO EXTERNO",
+                    "Unidad": "M3",
+                    "Cantidad": 1.3,
+                    "Operador": "*",
+                    "Costo0": 150.0
+                  },
+                  {
+                    "Codigo": "MOAY010",
+                    "Descripcion": "AYUDANTE GENERAL",
+                    "Unidad": "JOR",
+                    "Cantidad": 240.0,
+                    "Operador": "/",
+                    "Costo0": 626.6
+                  },
+                  {
+                    "Codigo": "EQDI140-H",
+                    "Descripcion": "MOTOCONFORMADORA CAT 140-H",
+                    "Unidad": "HR",
+                    "Cantidad": 60.0,
+                    "Operador": "/",
+                    "Costo0": 1395.8
+                  },
+                  {
+                    "Codigo": "EQDISD100-D",
+                    "Descripcion": "COMPACTADOR VIBRATORIO SD-100D",
+                    "Unidad": "HR",
+                    "Cantidad": 60.0,
+                    "Operador": "/",
+                    "Costo0": 802.81
+                  }
+                ]
+              },
+              {
+                "Tipo": "Renglon",
+                "Codigo": "1.2.3",
+                "Descripcion": "CARGA Y ACARREO AL 1 ER KM DE MATERIAL S",
+                "Unidad": "M3",
+                "Cantidad": 261.72,
+                "Costo0": 41.31,
+                "Precio0": 50.32,
+                "Matriz": [
+                  {
+                    "Codigo": "TERRA533",
+                    "Descripcion": "CARGA MECANICA Y ACARREO A 1ER KM C.V.",
+                    "Unidad": "M3",
+                    "Cantidad": 1.3,
+                    "Operador": "*",
+                    "Costo0": 31.78
+                  }
+                ]
+              },
+              {
+                "Tipo": "Renglon",
+                "Codigo": "1.2.4",
+                "Descripcion": "ACARREO EN CAMION DE VOLTEO A KM. SUBSEC",
+                "Unidad": "M3",
+                "Cantidad": 6019.59,
+                "Costo0": 7.8,
+                "Precio0": 9.5,
+                "Matriz": [
+                  {
+                    "Codigo": "MATAR006",
+                    "Descripcion": "CARREO DEL KM 2-20 EN CAMION DE VOLTEO",
+                    "Unidad": "M3-KM",
+                    "Cantidad": 1.3,
+                    "Operador": "*",
+                    "Costo0": 6.0
+                  }
+                ]
+              },
+              {
+                "Tipo": "Renglon",
+                "Codigo": "1.2.5",
+                "Descripcion": "FORMACION Y COMPACTACION DE BASE  HIDRAU",
+                "Unidad": "M3",
+                "Cantidad": 348.96,
+                "Costo0": 524.51,
+                "Precio0": 639.0,
+                "Matriz": [
+                  {
+                    "Codigo": "AGUA-PIPA",
+                    "Descripcion": "AGUA EN PIPA",
+                    "Unidad": "M3",
+                    "Cantidad": 0.14,
+                    "Operador": "*",
+                    "Costo0": 100.0
+                  },
+                  {
+                    "Codigo": "GRAVA60-40",
+                    "Descripcion": "BASE GRAVA DE 1 1/2 60% Y ARENA 40%",
+                    "Unidad": "M3",
+                    "Cantidad": 1.35,
+                    "Operador": "*",
+                    "Costo0": 320.0
+                  },
+                  {
+                    "Codigo": "MOAY010",
+                    "Descripcion": "AYUDANTE GENERAL",
+                    "Unidad": "JOR",
+                    "Cantidad": 120.0,
+                    "Operador": "/",
+                    "Costo0": 626.6
+                  },
+                  {
+                    "Codigo": "EQDI140-H",
+                    "Descripcion": "MOTOCONFORMADORA CAT 140-H",
+                    "Unidad": "HR",
+                    "Cantidad": 30.0,
+                    "Operador": "/",
+                    "Costo0": 1395.8
+                  },
+                  {
+                    "Codigo": "EQDISD100-D",
+                    "Descripcion": "COMPACTADOR VIBRATORIO SD-100D",
+                    "Unidad": "HR",
+                    "Cantidad": 30.0,
+                    "Operador": "/",
+                    "Costo0": 802.81
+                  }
+                ]
+              },
+              {
+                "Tipo": "Renglon",
+                "Codigo": "1.2.6",
+                "Descripcion": "PASTO EN ROLLO EN AREAS JARDINADAS TIPO",
+                "Unidad": "M2",
+                "Cantidad": 130.97,
+                "Costo0": 169.42,
+                "Precio0": 206.4,
+                "Matriz": [
+                  {
+                    "Codigo": "MTJARD-01",
+                    "Descripcion": "TIERRA PARA JARDIN",
+                    "Unidad": "M3",
+                    "Cantidad": 0.195,
+                    "Operador": "*",
+                    "Costo0": 450.0
+                  },
+                  {
+                    "Codigo": "MPAJARD-01",
+                    "Descripcion": "PASTO EN ROLLO TIPO ALFOMBRA",
+                    "Unidad": "M2",
+                    "Cantidad": 1.1,
+                    "Operador": "*",
+                    "Costo0": 60.0
+                  },
+                  {
+                    "Codigo": "MOAY010",
+                    "Descripcion": "AYUDANTE GENERAL",
+                    "Unidad": "JOR",
+                    "Cantidad": 40.0,
+                    "Operador": "/",
+                    "Costo0": 626.6
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Tipo": "Partida",
+        "DescripcionPartidaLarga": "VIALIDADES INTERIOR Y ESTACIONAMIENTO",
+        "Costo0": 280898.53,
+        "Precio0": 342186.78,
+        "Hijos": [
+          {
+            "Tipo": "Partida",
+            "DescripcionPartidaLarga": "PRELIMINARES",
+            "Costo0": 6614.93,
+            "Precio0": 8063.17,
+            "Hijos": [
+              {
+                "Tipo": "Renglon",
+                "Codigo": "3.1.1",
+                "Descripcion": "TRAZO Y NIVELACION DE TERRENO  ESTABLECI",
+                "Unidad": "M2",
+                "Cantidad": 652.36,
+                "Costo0": 10.14,
+                "Precio0": 12.36,
+                "Matriz": [
+                  {
+                    "Codigo": "MATCAL",
+                    "Descripcion": "CAL HIDRATADA EN SACOS",
+                    "Unidad": "KG",
+                    "Cantidad": 0.025,
+                    "Operador": "*",
+                    "Costo0": 3.2
+                  },
+                  {
+                    "Codigo": "MATPSRAY",
+                    "Descripcion": "PINTURA EN SPRAY",
+                    "Unidad": "BOTE",
+                    "Cantidad": 0.004,
+                    "Operador": "*",
+                    "Costo0": 95.0
+                  },
+                  {
+                    "Codigo": "MATHILO",
+                    "Descripcion": "HILO CA\u00d1AMO",
+                    "Unidad": "M",
+                    "Cantidad": 0.15,
+                    "Operador": "*",
+                    "Costo0": 2.0
+                  },
+                  {
+                    "Codigo": "ESTAC20",
+                    "Descripcion": "ESTACAS MADERA DE 2DA DE 20 CMS",
+                    "Unidad": "PZA",
+                    "Cantidad": 0.75,
+                    "Operador": "*",
+                    "Costo0": 3.0
+                  },
+                  {
+                    "Codigo": "MOCD0010",
+                    "Descripcion": "CADENERO",
+                    "Unidad": "JOR",
+                    "Cantidad": 420.0,
+                    "Operador": "/",
+                    "Costo0": 650.5
+                  },
+                  {
+                    "Codigo": "MOIT0010",
+                    "Descripcion": "TOPOGRAFO",
+                    "Unidad": "JOR",
+                    "Cantidad": 420.0,
+                    "Operador": "/",
+                    "Costo0": 1495.51
+                  },
+                  {
+                    "Codigo": "EQDIETCX-105",
+                    "Descripcion": "ESTACION TOTAL SOKKIA CX-105",
+                    "Unidad": "HR",
+                    "Cantidad": 60.0,
+                    "Operador": "/",
+                    "Costo0": 100.45
+                  },
+                  {
+                    "Codigo": "EQDINB-40",
+                    "Descripcion": "NIVEL AUTOMATICO SOKKIA B-40",
+                    "Unidad": "HR",
+                    "Cantidad": 60.0,
+                    "Operador": "/",
+                    "Costo0": 21.13
+                  }
+                ]
+              },
+              {
+                "Tipo": "Renglon",
+                "Codigo": "3.1.2",
+                "Descripcion": "DESPALME DE TERRENO POR MEDIOS MECANICOS",
+                "Unidad": "M2",
+                "Cantidad": 0.0,
+                "Costo0": 3.1,
+                "Precio0": 3.78,
+                "Matriz": [
+                  {
+                    "Codigo": "EQDI140-H",
+                    "Descripcion": "MOTOCONFORMADORA CAT 140-H",
+                    "Unidad": "HR",
+                    "Cantidad": 450.0,
+                    "Operador": "/",
+                    "Costo0": 1395.8
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Tipo": "Partida",
+            "DescripcionPartidaLarga": "TERRACERIAS",
+            "Costo0": 274283.6,
+            "Precio0": 334123.61,
+            "Hijos": [
+              {
+                "Tipo": "Renglon",
+                "Codigo": "3.2.1",
+                "Descripcion": "CORTE CON EQUIPO MECANICO, EN MATERIAL T",
+                "Unidad": "M3",
+                "Cantidad": 589.9,
+                "Costo0": 27.92,
+                "Precio0": 34.02,
+                "Matriz": [
+                  {
+                    "Codigo": "EQDI140-H",
+                    "Descripcion": "MOTOCONFORMADORA CAT 140-H",
+                    "Unidad": "HR",
+                    "Cantidad": 50.0,
+                    "Operador": "/",
+                    "Costo0": 1395.8
+                  }
+                ]
+              },
+              {
+                "Tipo": "Renglon",
+                "Codigo": "3.2.2",
+                "Descripcion": "COMPACTACION DE TERRENO NATURAL DE 20 CM",
+                "Unidad": "M2",
+                "Cantidad": 652.36,
+                "Costo0": 10.37,
+                "Precio0": 12.64,
+                "Matriz": [
+                  {
+                    "Codigo": "AGUA-PIPA",
+                    "Descripcion": "AGUA EN PIPA",
+                    "Unidad": "M3",
+                    "Cantidad": 0.0195,
+                    "Operador": "*",
+                    "Costo0": 100.0
+                  },
+                  {
+                    "Codigo": "MOAY010",
+                    "Descripcion": "AYUDANTE GENERAL",
+                    "Unidad": "JOR",
+                    "Cantidad": 1120.0,
+                    "Operador": "/",
+                    "Costo0": 626.6
+                  },
+                  {
+                    "Codigo": "EQDI140-H",
+                    "Descripcion": "MOTOCONFORMADORA CAT 140-H",
+                    "Unidad": "HR",
+                    "Cantidad": 280.0,
+                    "Operador": "/",
+                    "Costo0": 1395.8
+                  },
+                  {
+                    "Codigo": "EQDISD100-D",
+                    "Descripcion": "COMPACTADOR VIBRATORIO SD-100D",
+                    "Unidad": "HR",
+                    "Cantidad": 280.0,
+                    "Operador": "/",
+                    "Costo0": 802.81
+                  }
+                ]
+              },
+              {
+                "Tipo": "Renglon",
+                "Codigo": "3.2.3",
+                "Descripcion": "FORMACION Y COMPACTACION DE SUB-RASANTE",
+                "Unidad": "M3",
+                "Cantidad": 195.71,
+                "Costo0": 267.84,
+                "Precio0": 326.31,
+                "Matriz": [
+                  {
+                    "Codigo": "AGUA-PIPA",
+                    "Descripcion": "AGUA EN PIPA",
+                    "Unidad": "M3",
+                    "Cantidad": 0.13,
+                    "Operador": "*",
+                    "Costo0": 100.0
+                  },
+                  {
+                    "Codigo": "TEPETATE",
+                    "Descripcion": "TEPETATE DE BANCO EXTERNO",
+                    "Unidad": "M3",
+                    "Cantidad": 1.35,
+                    "Operador": "*",
+                    "Costo0": 150.0
+                  },
+                  {
+                    "Codigo": "MOAY010",
+                    "Descripcion": "AYUDANTE GENERAL",
+                    "Unidad": "JOR",
+                    "Cantidad": 180.0,
+                    "Operador": "/",
+                    "Costo0": 626.6
+                  },
+                  {
+                    "Codigo": "EQDI140-H",
+                    "Descripcion": "MOTOCONFORMADORA CAT 140-H",
+                    "Unidad": "HR",
+                    "Cantidad": 45.0,
+                    "Operador": "/",
+                    "Costo0": 1395.8
+                  },
+                  {
+                    "Codigo": "EQDISD100-D",
+                    "Descripcion": "COMPACTADOR VIBRATORIO SD-100D",
+                    "Unidad": "HR",
+                    "Cantidad": 45.0,
+                    "Operador": "/",
+                    "Costo0": 802.81
+                  }
+                ]
+              },
+              {
+                "Tipo": "Renglon",
+                "Codigo": "3.2.4",
+                "Descripcion": "CARGA Y ACARREO AL 1 ER KM DE MATERIAL S",
+                "Unidad": "M3",
+                "Cantidad": 589.9,
+                "Costo0": 41.31,
+                "Precio0": 50.32,
+                "Matriz": [
+                  {
+                    "Codigo": "TERRA533",
+                    "Descripcion": "CARGA MECANICA Y ACARREO A 1ER KM C.V.",
+                    "Unidad": "M3",
+                    "Cantidad": 1.3,
+                    "Operador": "*",
+                    "Costo0": 31.78
+                  }
+                ]
+              },
+              {
+                "Tipo": "Renglon",
+                "Codigo": "3.2.5",
+                "Descripcion": "ACARREO EN CAMION DE VOLTEO A KM. SUBSEC",
+                "Unidad": "M3",
+                "Cantidad": 13567.7,
+                "Costo0": 7.8,
+                "Precio0": 9.5,
+                "Matriz": [
+                  {
+                    "Codigo": "MATAR006",
+                    "Descripcion": "CARREO DEL KM 2-20 EN CAMION DE VOLTEO",
+                    "Unidad": "M3-KM",
+                    "Cantidad": 1.3,
+                    "Operador": "*",
+                    "Costo0": 6.0
+                  }
+                ]
+              },
+              {
+                "Tipo": "Renglon",
+                "Codigo": "3.2.6",
+                "Descripcion": "FORMACION Y COMPACTACION DE BASE  HIDRAU",
+                "Unidad": "M3",
+                "Cantidad": 130.47,
+                "Costo0": 524.51,
+                "Precio0": 639.0,
+                "Matriz": [
+                  {
+                    "Codigo": "AGUA-PIPA",
+                    "Descripcion": "AGUA EN PIPA",
+                    "Unidad": "M3",
+                    "Cantidad": 0.14,
+                    "Operador": "*",
+                    "Costo0": 100.0
+                  },
+                  {
+                    "Codigo": "GRAVA60-40",
+                    "Descripcion": "BASE GRAVA DE 1 1/2 60% Y ARENA 40%",
+                    "Unidad": "M3",
+                    "Cantidad": 1.35,
+                    "Operador": "*",
+                    "Costo0": 320.0
+                  },
+                  {
+                    "Codigo": "MOAY010",
+                    "Descripcion": "AYUDANTE GENERAL",
+                    "Unidad": "JOR",
+                    "Cantidad": 120.0,
+                    "Operador": "/",
+                    "Costo0": 626.6
+                  },
+                  {
+                    "Codigo": "EQDI140-H",
+                    "Descripcion": "MOTOCONFORMADORA CAT 140-H",
+                    "Unidad": "HR",
+                    "Cantidad": 30.0,
+                    "Operador": "/",
+                    "Costo0": 1395.8
+                  },
+                  {
+                    "Codigo": "EQDISD100-D",
+                    "Descripcion": "COMPACTADOR VIBRATORIO SD-100D",
+                    "Unidad": "HR",
+                    "Cantidad": 30.0,
+                    "Operador": "/",
+                    "Costo0": 802.81
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
+
